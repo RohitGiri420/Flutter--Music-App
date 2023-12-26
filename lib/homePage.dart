@@ -6,7 +6,8 @@ class homePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
+      backgroundColor: Color.fromRGBO(251, 250, 245, 1),
+      body: Center(child: Text('hii')),
     );
   }
 }
